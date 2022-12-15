@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    /*COLORES*/
+    --violeta: #AF8BB3;
+    --lila: #DDADFF;
+    --beige: rgba(254, 255, 237, 0.72);
+    --verde: #C6FF94;
+    --negro: #151313;
+    --rosa: #F9BAFF;
+    --blanco: #fff;
+    --verde-manzana: #CDFFA1;
+
+    /*TAMAÑOS*/
+    --reg-small: 0.9rem; /* 14px */
+    --heading1: 2.4rem; /* 38px */
+    --heading2: 1.25rem; /* 20px */
+    --heading3: 2rem; /* 32px */
+    --heading4: 1.5rem; /* 24px */
+    --parrafo: 0.75rem; /* 12px */
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: var(--beige);
+    width: 100%;
+    color: var(--negro);
+}
+
+a {
+    text-decoration: none;
+}
+
+input, nav {
+    background-color: var(--violeta);
+}
+
+nav {
+    height: 3.6rem;
+}
+
+i {
+    padding: 0rem 1rem;
+    font-size: 1.4rem;
+}
+
+input {
+    width: 9rem;
+    height: 2rem;
+    border: 1.8px solid var(--blanco);
+    border-radius: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.icono-cv {
+    width: 30%;
+}
+
+.logo-ap {
+    width: 8rem;
+}
+
+.contenedor, nav, .contenedor-lila {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor {
+    background-color: var(--blanco);
+}
+
+.contenedor, .contenedor-lila {
+    border-radius: 65px;
+}
+
+.contenedor-lila {
+    background-color: var(--lila)
+}
+
+footer {
+    background-color: var(--verde-manzana);
+}
+
+footer a, footer, footer a:hover, nav, input {
+    color: var(--blanco);
+}
+
+footer a:hover {
+    font-weight: 600;
+}
+
+.html, .tiempo, .com {
+    width: 70%;
+}
+
+.css, .problemas {
+    width: 65%;
+}
+
+.js {
+    width: 10%;
+}
+
+.progress, .progress-bar {
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: var(--rosa);    
+}
+
+.progress {
+    background-color: var(--blanco);
+    border: 0.15rem solid var(--rosa);
+}
+
+.card {
+    background-color: var(--verde);
+    border: none;
+    border-radius: 3rem;
+}
+
+
+.imagen-logo {
+    width: 10rem;
+    display: flex;
+}
+
+section.container {
+    margin-right: 0;
+}
