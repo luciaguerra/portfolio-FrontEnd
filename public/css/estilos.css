@@ -36,17 +36,30 @@ a {
     text-decoration: none;
 }
 
-input, nav {
+input, nav, .collapse, .navbar-expand-md {
     background-color: var(--violeta);
 }
 
+.navbar-toggler {
+    color:rgba(255, 255, 255, 0);
+}
+
 nav {
-    height: 3.6rem;
+    height: 4rem;
+}
+
+button.navbar-toggler {
+    border: none;
+}
+
+.ion-navicon {
+    font-size: 2.2rem;
 }
 
 i {
     padding: 0rem 1rem;
     font-size: 1.4rem;
+    color: var(--blanco);
 }
 
 input {
@@ -68,7 +81,7 @@ li {
     width: 8rem;
 }
 
-.contenedor, nav, .contenedor-lila {
+.contenedor, .contenedor-lila {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -135,4 +148,53 @@ footer a:hover {
 
 section.container {
     margin-right: 0;
+}
+
+@media only screen and (max-width: 572px) {
+
+    nav {
+        height: 5rem;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .collapse {
+        border-radius: 65px;
+        
+    }
+
+    ul.navbar-nav {
+        margin: auto;
+    }
+
+    .ion-social-twitter, .ion-social-linkedin, .ion-social-github {
+        font-size: var(--reg-small);
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .ion-social-twitter::after {
+        content: " Twitter";
+        
+    }
+    .ion-social-linkedin::after {
+        content: " Linkedin";
+    }
+    .ion-social-github::after {
+        content: " Github";
+    }
+
+    input {
+        background-color: #af8bb300;
+    }
+
+    article.container {
+        display: flex;
+        flex-direction: column;
+    }
 }
