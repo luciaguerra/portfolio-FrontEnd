@@ -198,3 +198,7 @@ section.container {
         flex-direction: column;
     }
 }
+
+header {
+    height: 10%;
+}

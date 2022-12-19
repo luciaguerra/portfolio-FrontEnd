@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--NAVEGACIÓN / LOGIN / LINKS-->
-    <nav class="navbar navbar-expand-sm d-flex">
+    <nav class="navbar navbar-expand-sm d-flex fixed-top">
         <div class="col-md-1"></div>
 
         <div class="container-fluid align-items-center justify-content-end p-2 col-md-10">
@@ -45,24 +45,23 @@
     </nav>
 
     <!--INFO PERSONAL-->
-    <header class="container contenedor p-2 mt-5 mb-4 d-flex justify-content-center align-items-center">
-        <div class="">
-            <div>
+    <header class="container contenedor p-2 mt-5 mb-4 d-flex justify-content-center align-items-center" id="header-info">
+        <!--FOTO HEADER-->
+        <div class="flex-column">
+            <img src="img/cloud-sky-green-flower-world-nature-2071331-wallhere.com.jpg" class="rounded img-fluid" alt="">
+        </div>
+
+        <div class="flex-row">       
+            <!--FOTO CV-->
+            <div class="col-md-4">
                 <img src="img/foto-cv-cuadrada.jpg" class="rounded-circle img-fluid p-3 icono-cv">
             </div>
-
-            <div class="p-3">
+            
+            <!--INFO PERSONAL-->
+            <div class="col-md-8 p-3">
                 <h1>Lucía Guerra</h1>
                 <h2>Estudiante de Artes Digitales</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, ad exercitationem! Amet minus ipsum odit rerum explicabo iusto nisi ipsam, nostrum quos quibusdam harum sed officia? Atque laborum dolorem error!</p>
-            </div>
-
-            <div>
-                <img src="img/cloud-sky-green-flower-world-nature-2071331-wallhere.com.jpg" class="rounded img-fluid" alt="">
-            </div>
-
-            <div>
-
             </div>
         </div>
     </header>
