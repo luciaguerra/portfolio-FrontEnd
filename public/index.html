@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--NAVEGACIÓN / LOGIN / LINKS-->
-    <nav class="navbar navbar-expand-sm d-flex fixed-top">
+    <nav class="navbar navbar-expand-sm d-flex">
         <div class="col-md-1"></div>
 
         <div class="container-fluid align-items-center justify-content-end p-2 col-md-10">
@@ -45,16 +45,14 @@
     </nav>
 
     <!--INFO PERSONAL-->
-    <header class="container contenedor p-2 mt-5 mb-4 d-flex justify-content-center align-items-center" id="header-info">
+    <header class="container contenedor mt-5 mb-4 d-flex justify-content-center align-items-center flex-column" id="header-info">
         <!--FOTO HEADER-->
-        <div class="flex-column">
-            <img src="img/cloud-sky-green-flower-world-nature-2071331-wallhere.com.jpg" class="rounded img-fluid" alt="">
-        </div>
+        <div class="flex-column foto-header"></div>
 
-        <div class="flex-row">       
+        <div class="d-flex flex-row">       
             <!--FOTO CV-->
-            <div class="col-md-4">
-                <img src="img/foto-cv-cuadrada.jpg" class="rounded-circle img-fluid p-3 icono-cv">
+            <div class="col-md-3 icono-cv ps-4">
+                <img src="img/foto-cv-cuadrada.jpg" class="rounded-circle img-fluid foto-cv">
             </div>
             
             <!--INFO PERSONAL-->
@@ -63,15 +61,15 @@
                 <h2>Estudiante de Artes Digitales</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, ad exercitationem! Amet minus ipsum odit rerum explicabo iusto nisi ipsam, nostrum quos quibusdam harum sed officia? Atque laborum dolorem error!</p>
             </div>
+
+            <div class="col-md-1"></div>
         </div>
     </header>
 
     <!--INFO GENERAL-->
     <main>
-        
-
         <article class="d-flex justify-content-center">
-            <div class="col-md-1"></div>
+            <div class="col-md-1 columna"></div>
 
             <!--EDUCACIÓN-->
             <section class="container p-5 mt-4 me-2 col-md-6 contenedor">
@@ -168,7 +166,7 @@
                 </div>
             </section>
 
-            <div class="col-md-1"></div>
+            <div class="col-md-1 columna"></div>
         </article>
 
         <article class="contenedor-lila container mt-5 d-flex">
